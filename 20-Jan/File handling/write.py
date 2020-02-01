@@ -1,0 +1,8 @@
+f=open("writedata.txt","w")
+f.write("This is line 1\nThis is line 2")
+print("File Write Sucessful")
+f.close()
+f=open("writedata.txt","r")
+print("opening..")
+print(f.read())
+f.close()
